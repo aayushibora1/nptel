@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/LIST/style.css" rel="stylesheet">
+    <title>assignment3</title>
+</head>
+<body class="assignment3">
+    <h1>Week 3: Assignment 3</h1>
+    <p>1. For linear classification we use:</p>
+    <lable>
+       <input type="radio"> A linear function to separate the classes.<br>
+       <input type="radio">A linear function to model the data.<br>
+       <input type="radio">A linear loss.<br>
+       <input type="radio">Non-linear function to fit the data.<br> 
+    </lable><br>
+    <div>Answer -<br>
+        A linear function to separate the classes.
+    </div>
+    <p>2. Logit transformation for Pr(X=1) for given data is  S=[0,1,1,0,1,0,1]</p>
+    <label>
+        <input type="radio"> 3/4;<br>
+        <input type="radio"> 4/3<br>
+        <input type="radio"> 4/7<br>
+        <input type="radio"> 3/7<br>
+    </label><br>
+    <div>Answer -<br>4/3</div>
+
+    <p>3. The output of binary class logistic regression lies in this range.</p>
+    <label>
+        <input type="radio"> [−∞,∞]<br>
+        <input type="radio"> [−1,1]<br>
+        <input type="radio"> [0,1]<br>
+        <input type="radio"> [−∞,0]<br>
+    </label><br>
+    <div>Answer -<br>[0,1]</div>
+
+    <p>4.If
+
+        log(1−p(x)/1+p(x))=β0+βx
+        
+        What is p(x)? </p>
+        <label>
+            <input type="radio">  p(x)=1+e<sup>β0+βx</sup>/e<sup>β0+βx</sup><br>
+            <input type="radio"> p(x)=1+e<sup>β0+βx</sup>/1−e<sup>β0+βx</sup><br>
+            <input type="radio"> p(x)=e<sup>β0+βx</sup>/1+e<sup>β0+βx</sup><br>
+            <input type="radio"> p(x)=1−e<sup>β0+βx</sup>/1+e<sup>β0+βx</sup><br>
+            
+        </label><br>
+        <div>Answer -<br>p(x)=1−e<sup>β0+βx</sup>/1+e<sup>β0+βx</sup></div>
+
+    <p>5. Logistic regression is robust to outliers. Why?</p>
+    <label>
+        <input type="radio">  The squashing of output values between [0, 1] dampens the affect of outliers.<br>
+        <input type="radio">Linear models are robust to outliers.<br>
+        <input type="radio">The parameters in logistic regression tend to take small values due to the nature of the problem setting and hence outliers get translated to the same range as other samples.<br>
+        <input type="radio">The given statement is false.<br>
+    </label><br>
+    <div>Answer -<br>The squashing of output values between [0, 1] dampens the affect of outliers.</div>
+
+    <p>6. Aim of LDA is (multiple options may apply)</p>
+    <label>
+        <input type="checkbox" >Minimize intra-class variability.<br>
+        <input type="checkbox" > Maximize intra-class variability.<br>
+        <input type="checkbox" > Minimize the distance between the mean of classes<br>
+        <input type="checkbox" > Maximize the distance between the mean of classes<br>
+    </label><br>
+    <div>Answer -<br>Minimize intra-class variability.<br>
+        Maximize the distance between the mean of classes</div>
+
+    <p>7. We have two classes in our dataset with mean 0 and 1, and variance 2 and 3.</p>
+    <label>
+        <input type="radio" > LDA may be able to classify them perfectly.<br>
+        <input type="radio" >LDA will definitely be able to classify them perfectly.<br>
+        <input type="radio" >LDA will definitely NOT be able to classify them perfectly.<br>
+        <input type="radio" > None of the above.<br>
+
+    </label><br>
+    <div>Answer -<br>LDA will definitely NOT be able to classify them perfectly.</div>
+
+    <p>8. We have two classes in our dataset with mean 0 and 5, and variance 1 and 2.</p>
+    <label>
+        <input type="radio" > LDA may be able to classify them perfectly.<br>
+        <input type="radio" > LDA will definitely be able to classify them perfectly.<br>
+        <input type="radio" >  LDA will definitely NOT be able to classify them perfectly.<br>
+        <input type="radio" > None of the above.<br>
+    </label><br>
+    <div>Answer -<br> LDA may be able to classify them perfectly.</div>
+
+    <p>9. For the two classes ’+’ and ’-’ shown below.</p>
+    <img src="/photo/table5.jpg">
+    <p>While performing LDA on it, which line is the most appropriate for projecting data points?</p>
+
+    <label>
+        <input type="radio" >  Red<br>
+        <input type="radio" > Orange<br>
+        <input type="radio" > Blue<br>
+        <input type="radio" > Green<br>
+    </label><br>
+    <div>Answer -<br>Blue</div>
+
+    <p>10. LDA assumes that the class data is distributed as:</p>
+    <label>
+        <input type="radio" >  Poisson<br>
+        <input type="radio" >Uniform<br>
+        <input type="radio" > Gaussian<br>
+        <input type="radio" > LDA makes no such assumption.<br>
+    </label><br>
+    <div>Answer -<br>Gaussian</div>
+
+</body>
+</html>

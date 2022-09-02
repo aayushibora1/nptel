@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/LIST/style.css" rel="stylesheet">
+    <title>assignment5</title>
+</head>
+<body class="assignment5">
+    <h1>Week 5: Assignment 5</h1>
+    
+    <p>1. If the step size in gradient descent is too large, what can happen?</p>
+    <label>
+       <input type="radio" >Overfitting<br>
+       <input type="radio">The model will not converge<br>
+       <input type="radio"> We can reach maxima instead of minima<br>
+       <input type="radio" >None of the above<br>
+    </label><br>
+    <div> Answer -<br> 
+    </div>
+    <p>2. Recall the XOR(tabulated below) example from class where we did a transformation of features to make it linearly separable. Which of the following transformations can also work?</p>
+        <img  src="/photo/table8.png">
+    <label><br>
+        <input type="checkbox" > X'<sub>1</sub>=X<sup>2</sup><sub>1</sub>,X'<sub>2</sub>=X<sup>2</sup><sub>2</sub><br>
+
+        <input type="checkbox" > X'<sub>1</sub>=1+X<sub>1</sub>,X'<sub>2</sub>=1−X<sub>2</sub><br>
+        
+        <input type="checkbox" > X'<sub>1</sub>=X<sub>1</sub>X<sub>2</sub>,X'<sub>2</sub>=−X<sub>1</sub>X<sub>2</sub><br>
+        
+        <input type="checkbox" >X'<sub>1</sub>=(X−X<sub>2</sub>)<sup>2</sup>,X'<sub>2</sub>=(X<sub>1</sub>+X<sub>2</sub>)<sup>2</sup><br>
+    </label><br>
+    <div> Answer -<br> 
+    </div>
+    <p>3.What is the effect of using activation function f(x)=x for hidden layers in an ANN? </p>
+    <label>
+        <input type="radio" > No effect. It’s as good as any other activation function (sigmoid, tanh etc).<br>
+        <input type="radio" > The ANN is equivalent to doing multi-output linear regression.<br>
+        <input type="radio" > Backpropagation will not work.<br>
+        <input type="radio" > We can model highly complex non-linear functions.<br>
+    </label><br>
+    <div> Answer -<br> 
+    </div>
+    <p>4. Statement: Threshold function cannot be used as activation function for hidden layers.
+        Reason: Threshold functions do not introduce non-linearity.</p>
+    <label>
+        <input type="checkbox" > Softmax<br>
+        <input type="checkbox" > Sigmoid<br>
+        <input type="checkbox" > Tanh<br>
+        <input type="checkbox" > Linear<br>
+    </label><br>
+    <div> Answer -<br> 
+    </div>
+    <p>5. Statement: Threshold function cannot be used as activation function for hidden layers.
+        Reason: Threshold functions do not introduce non-linearity.</p>
+    <label>
+        <input type="radio" > Statement is true and reason is false.<br>
+        <input type="radio" > Statement is false and reason is true.<br>
+        <input type="radio" > Both are true and the reason explains the statement.<br>
+        <input type="radio" > Both are true and the reason does not explain the statement.<br>
+    </label><br>
+    <div> Answer -<br> 
+    </div>
+    <p>6. On different initializations of your neural network, you get significantly different values of loss. What could be the reason for this?</p>
+    <label>
+        <input type="radio" >  Model has overfitted.<br>
+        <input type="radio" >It was initialized incorrectly.<br>
+        <input type="radio" >At least one of (a) or (b).<br>
+        <input type="radio" >None of the above.<br>
+    </label><br>
+    <div> Answer -<br> 
+    </div>
+    <p>7. On different initializations of your neural network, you get significantly different values of loss. What could be the reason for this?</p>
+    <label><br>
+        <input type="radio" > Overfitting<br>
+        <input type="radio" > Some problem in the architecture<br>
+        <input type="radio" > Incorrect activation function<br>
+        <input type="radio" > Multiple local minima<br>
+    </label><br>
+    <div> Answer -<br> 
+    </div>
+    <p>8. The likelihood L(θ|X) is given by: </p>
+    <label><br>
+        <input type="radio" >P(θ|X)<br>
+        <input type="radio" > P(X|θ)<br>
+        <input type="radio" > P(X).P(θ)<br>
+        <input type="radio" > P(θ)P(X)<br>
+    </label><br>
+    <div> Answer -<br> 
+    </div>
+    <p>9. You are trying to estimate the probability of it raining today using maximum likelihood estimation. Given that in n days, it rained nr times, what is the probability of it raining today?</p>
+    <label>
+        <input type="radio" > n<sub>r</sub>/n<br>
+        <input type="radio" >n<sub>r</sub>/n<sub>r</sub>+n<br> 
+        <input type="radio" > n/n<sub>r</sub>+n<br>
+        <input type="radio" > None of the above.<br>
+    </label><br>
+    <div> Answer -<br> 
+    </div>
+    <p>10. Choose the correct statement (multiple may be correct): </p>
+    <label>
+        <input type="checkbox" >  MLE is a special case of MAP when prior is a uniform distribution.<br>
+        <input type="checkbox" > MLE acts as regularisation for MAP.<br>
+        <input type="checkbox" > MLE is a special case of MAP when prior is a beta disrubution .<br>
+        <input type="checkbox" > MAP acts as regularisation for MLE.<br>
+    </label><br>
+    <div> Answer -<br> 
+    </div>
+</body>
+</html>

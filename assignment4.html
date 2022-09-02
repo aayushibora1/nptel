@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/LIST/style.css" rel="stylesheet">
+    <title>assignment4</title>
+</head>
+<body class="assignment4">
+    <h1>Week 4: Assignment 4</h1>
+    <p>1. Consider the 1 dimensional dataset: </p>
+    <img src="/photo/table6.png">
+    <p>(Note: x is the feature, and y is the output)</p>
+
+       <p> State true or false: The dataset becomes linearly separable after using basis expansion with the following basis function ϕ(x)=[1/x<sup>3</sup>]</p>
+    <label>
+       <input type="radio"> True<br>
+       <input type="radio">  False <br>
+    </label><br>
+    <div>
+        Answer -<br>False
+    </div>
+    <p>2.  Consider a linear SVM trained with n labeled points in R<sup>2</sup> without slack penalties and resulting in k=2 support vectors, where n>100. By removing one labeled training point and retraining the SVM classifier, what is the maximum possible number of support vectors in the resulting solution?</p>
+    <label>
+        <input type="radio">   1<br>
+        <input type="radio"> 2<br>
+        <input type="radio"> 3<br>
+        <input type="radio"> n − 1<br>
+        <input type="radio"> n<br>
+    </label><br>
+    <div>
+        Answer -<br>n − 1
+    </div>
+    <p>3. Which of the following are valid kernel functions? </p>
+    <label>
+       <input type="checkbox">  (1+ &lt;i x,x'&gt;)d<br> 
+
+        <input type="checkbox">tanh(K1<x,x'>+K2)<br>
+        
+        <input type="checkbox"> exp(−γ||x−x'||2)<br>
+    </label><br>
+    <div>
+        Answer -<br>(1+&lt;x,x'&gt;)d<br>
+        tanh(K1<x,x'>+K2)<br>
+        exp(−γ||x−x'||2)<br>
+    </div>
+
+    <p>4.  Consider the following dataset:</p>
+    <img src="/photo/table7.png"
+    <p>(Note: x is the feature and y is the output)</p>
+    <p>Which of these is not a support vector when using a Support Vector Classifier with a polynomial kernel with degree =3,C=1, and gamma =0.1?</p>
+      <p>(We recommend using sklearn to solve this question.)</p>
+    <label>
+        <input type="radio">  3<br>
+        <input type="radio">  1<br>
+        <input type="radio">  9<br>
+        <input type="radio"> 10<br>
+    </label><br>
+    <div>
+        Answer -<br>1
+    </div>
+    <p>5.   Consider an SVM with a second order polynomial kernel. Kernel 1 maps each input data point x to K1(x)=[xx2]. Kernel 2 maps each input data point x to K2(x)=[3x3x2] Assume the hyper-parameters are fixed. Which of the following option is true?</p>
+    <label>
+        <input type="radio"> The margin obtained using K2(x) will be larger than the margin obtained using K1(x).<br>
+
+        <input type="radio"> The margin obtained using K2(x) will be smaller than the margin obtained using K1(x).<br>
+        
+        <input type="radio"> The margin obtained using K2(x) will be the same as the margin obtained using K1(x).<br>
+    </label><br>
+    <div>
+        Answer -<br>The margin obtained using K2(x) will be larger than the margin obtained using K1(x).
+    </div>
+    <p>6.  Train a Linear perceptron classifier on the modified iris dataset. Report the best classification accuracy for l1 and elasticnet penalty terms.</p>
+    <p>(We recommend using sklearn.)</p>
+    <label>
+        <input type="radio">  0.82, 0.64<br>
+        <input type="radio">  0.90, 0.71<br>
+        <input type="radio">  0.84, 0.82<br>
+        <input type="radio"> 0.78, 0.64<br>
+    </label><br>
+    <div>
+        Answer -<br>0.84, 0.82
+    </div>
+    <p>7. Train an SVM classifier on the modified iris dataset. We encourage you to explore the impact of varying different hyperparameters of the model. Specifically, try different kernels and the associated hyperparameters. As part of the assignment, train models with the following set of hyperparameters
+        poly, gamma=0.4, one-vs-rest classifier, no-feature-normalization. </p>
+        <p>Try C=0.1,0.9,10,0.000001. For the above hyperparameters, report the best classification accuracy.</p>
+   <p>(We recommend using sklearn.)</p>
+        <label>
+            <input type="radio">0.98<br>
+            <input type="radio">0.96<br>
+            <input type="radio">0.92<br>
+            <input type="radio">0.94<br>
+    </label><br>
+    <div>
+        Answer -<br>0.96
+    </div>
+</body>
+</html>
